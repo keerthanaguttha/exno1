@@ -29,29 +29,29 @@ df = pd.read_csv('/content/SAMPLEIDS.csv')
 df
 ```
 ![image](https://github.com/user-attachments/assets/186d4517-f77f-4feb-bb54-55cd29431d93)
-
+```
 df.isnull().sum()
-
+```
 ![image](https://github.com/user-attachments/assets/5159ed94-b36a-43e4-9abe-e8cf3cd304cc)
-
+```
 df.isnull().any()
-
+```
 ![image](https://github.com/user-attachments/assets/4cf4ed0b-c88a-4460-a8bc-dddac11e1678)
-
+```
 df.dropna()
-
+```
 ![image](https://github.com/user-attachments/assets/8511ba10-92cd-4250-a988-b0909a74e0fb)
-
+```
 df.fillna(0)
-
+```
 ![image](https://github.com/user-attachments/assets/ce2f688f-1889-44ba-b341-aa8fb2c8e6f9)
-
+```
 df.fillna(method = 'ffill')
-
+```
 ![image](https://github.com/user-attachments/assets/03bb3f1e-2706-4d75-abf4-b1dda1bf5063)
-
+```
 df.fillna(method = 'bfill')
-
+```
 ![image](https://github.com/user-attachments/assets/397abb07-46c1-466c-9b99-a9ccfe5d3529)
 
 ```
@@ -59,9 +59,9 @@ df_dropped = df.dropna()
 df_dropped
 ```
 ![image](https://github.com/user-attachments/assets/4a71f020-ea66-4d89-a560-0a102fbb16d8)
-
+```
  df.fillna({'GENDER':'MALE','NAME':'SRI','ADDRESS':'POONAMALEE','M1':98,'M2':87,'M3':76,'M4':92,'TOTAL':305,'AVG':89.999999})
-
+```
  ![image](https://github.com/user-attachments/assets/5c86f251-639f-45ce-b484-8de47e4f6566)
 
  ```
@@ -70,9 +70,9 @@ ir=pd.read_csv('iris.csv')
 ir
 ```
 ![image](https://github.com/user-attachments/assets/f82a2cee-68af-4ff6-b432-94b43af3137b)
-
+```
  ir.describe()
-
+```
  ![image](https://github.com/user-attachments/assets/9f9a5abb-47d4-4db7-bc85-c632937512d5)
 
  ```
@@ -100,9 +100,9 @@ print(c3)
  delid
 ```
 ![image](https://github.com/user-attachments/assets/735d3c64-c975-47ea-83ae-8184e8b50cab)
-
+```
 sns.boxplot(x='sepal_width',data=delid)
-
+```
 ![image](https://github.com/user-attachments/assets/27d88393-9527-4fb8-9391-6afd0852b2ee)
 
 Z-Score
